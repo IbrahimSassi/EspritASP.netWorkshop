@@ -51,3 +51,7 @@ C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorks
 C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\obj\Debug\EspritASPWorkshop.csprojResolveAssemblyReference.cache
 C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\obj\Debug\EspritASPWorkshop.dll
 C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\obj\Debug\EspritASPWorkshop.pdb
+C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\bin\EntityFramework.dll
+C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\bin\EntityFramework.SqlServer.dll
+C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\bin\EntityFramework.xml
+C:\Users\Ibrahim\Desktop\Esprit 2O16-17\Semestre 1\Dot.net\Workspace\EspritWorkshop\EspritASPWorkshop\bin\EntityFramework.SqlServer.xml

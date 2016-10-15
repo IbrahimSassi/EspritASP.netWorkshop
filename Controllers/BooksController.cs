@@ -11,9 +11,10 @@ namespace EspritASPWorkshop.Controllers
     {
 
         //Books
-        static List<Book> Books = new List<Book>();
+        //static List<Book> Books = new List<Book>();
+        BooksDbContext booksDbContext = new BooksDbContext();
 
-        public BooksController()
+      /*  public BooksController()
         {
 
             if (Books.Count == 0)
@@ -35,11 +36,12 @@ namespace EspritASPWorkshop.Controllers
             };
             }
         }
+        */
 
         // GET: Books
         public ActionResult Index()
         {
-            return View(Books);
+            return View(booksDbContext.Books.ToList());
         }
 
         [HttpGet]
@@ -51,7 +53,8 @@ namespace EspritASPWorkshop.Controllers
         [HttpPost]
         public ActionResult Add(Book book)
         {
-            Books.Add(book);
+            booksDbContext.Books.Add(book);
+            booksDbContext.SaveChanges();
             return RedirectToAction("Index");
         }
 

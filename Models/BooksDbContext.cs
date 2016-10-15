@@ -12,9 +12,9 @@ namespace EspritASPWorkshop.Models
 
         public DbSet<Book> Books { get; set; }
 
-        public BooksDbContext() :base("BooksDbContext")
+        public BooksDbContext() :base("DbContextBooks")
         {
-
+            
         }
 
     }
