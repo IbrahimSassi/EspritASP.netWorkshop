@@ -1,2 +1,4 @@
 /BookDb.mdf
 *.mdf
+*.ldf
+App_Data/BookDb_log.ldf

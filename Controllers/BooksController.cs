@@ -11,11 +11,14 @@ namespace EspritASPWorkshop.Controllers
     {
 
         //Books
-        static List<Book> Books;
+        static List<Book> Books = new List<Book>();
 
         public BooksController()
         {
-            Books = new List<Book>
+
+            if (Books.Count == 0)
+            {
+                Books = new List<Book>
             {
                 new Book
                 {
@@ -28,8 +31,9 @@ namespace EspritASPWorkshop.Controllers
                     Id =2,
                     Title= "Book 2",
                     ISBN="12-5885-299"
-                },
+                }
             };
+            }
         }
 
         // GET: Books
@@ -37,5 +41,20 @@ namespace EspritASPWorkshop.Controllers
         {
             return View(Books);
         }
+
+        [HttpGet]
+        public ActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Add(Book book)
+        {
+            Books.Add(book);
+            return RedirectToAction("Index");
+        }
+
+
     }
 }
