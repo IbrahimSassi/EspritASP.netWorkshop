@@ -1,0 +1,15 @@
+﻿@model List<EspritASPWorkshop.Models.Book>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hello From Books</h2>
+
+
+
+@foreach (var item in Model)
+{
+    <h3>@item.Title</h3>
+}
